@@ -5,9 +5,34 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Jquery class3</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 
 	<body>
-		<h1>Today We Will Learn jQuery css manupulation</h1>
+		<h1 style="text-align: center">
+			Today We Will Learn jQuery CSS manupulation
+		</h1>
+		<hr />
+		<h1 class="style">Text 01</h1>
+		<h2>
+			If we want to add style to 'text 01' then we have to write this JS code =
+			<code style="color: brown"
+				>document.querySelector(".style").classList.add("style1");</code
+			>
+		</h2>
+		<button onclick="text01();">click to add CSS to text01</button>
+
+		<h1 class="styleX">Text 02</h1>
+		<h2>
+			If we want to add style to 'text 02' then we have to write this jQuery
+			code =
+			<code style="color: brown"
+				>$(".styleX").css({ "font-size": "6rem", color: "green", background:
+				"orange", display: "block", width: "25%", });</code
+			>
+		</h2>
+		<button onclick="text02();">click to add CSS to text02</button>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="index.js"></script>
 	</body>
 </html>
