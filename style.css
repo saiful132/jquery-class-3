@@ -7,3 +7,21 @@
 	padding: 0.9rem;
 	background-color: gray;
 }
+.style2 {
+	color: yellow;
+	font-style: italic;
+	font-size: 4rem;
+	border: 1px solid;
+	width: 35%;
+	padding: 0.9rem;
+	background-color: gray;
+}
+.styleX2 {
+	color: green;
+	font-size: 4rem;
+	background: gray;
+	width: 35%;
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px;
+}
